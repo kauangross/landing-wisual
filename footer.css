@@ -1,5 +1,31 @@
 #boxfooter {
-    background-color: black;
-    height: 200px;
+    display: inline-flex;
+    background-color: #000000;
+    color: white;
+    margin-top: 400px;
+    height: 300px;
     width: 100%;
+    align-items: center;
+}
+
+#boxfooter img {
+    max-width: 20%;
+}
+
+#boxfooter h3 {
+    display: inline-block;
+    margin: auto 18% auto auto;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+#info-footer {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#info-footer p {
+    margin-top: 8px;
 }
