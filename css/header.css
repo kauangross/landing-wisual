@@ -1,0 +1,31 @@
+
+header{
+    height: 100px;
+    background-color: #E1DCD4;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    position: sticky;
+}
+
+div#headerlink {
+    display: inline-flex;
+    margin-top: 2.5%;
+    margin-left: 70%;     
+}
+
+a {
+    margin-left: 15%;
+    font-style: none;
+    text-decoration: none;
+    color: #fefffa;
+    font-size: large;
+}
+
+div#linha {
+    margin-top: 1.5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 1.5px;
+    background-color: white;
+}

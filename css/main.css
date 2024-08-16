@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#face {
+    height: 82vh;
+    background-image: url("../img/img-fundo-1600.png");
+    background-size: cover;
+    background-position: right;
+    background-attachment: scroll;
+}
+
+#brand {
+    text-align: center;
+    padding-top: 7%;
+}
+
+#brand h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;   
+    text-shadow: 4px 1px 0px rgba(255, 255, 255, 0.144);
+}
+
+#brand p {
+    padding-top: 8px;
+    color: #414631;
+    font-size: 18px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+#conheça {
+    margin-top: 7.5%;
+    margin-bottom: 10%;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(150px);
+        transition: opacity 0.2s ease, transform 0.8s ease;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#conheça {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#conheça p {
+    font-style: oblique;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+#box {
+    background-color: #A6A28F;
+    display: inline-flex;
+    width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#logo {
+    background-color: #A6A28F;
+}
+
+img#logowisual {
+    padding-top: 20px;
+    max-width: 80%;
+}
+
+#info div#endereço {
+    background-color: #A6A28F;
+    padding-top: 80px;
+}
+
+#info div#endereço > h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#info div#endereço > p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#info div#endereço > a {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#imgloja {
+    background-image: url("../img/wisual-fora.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+
+.subtitle2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: oblique;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#conecte-se #redes {
+    background-color: #A6A28F;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#logos {
+    padding-bottom: 5px;
+}
+
+#logo-insta {
+    padding-left: 2%;
+}
+
+#logo-whatsapp {
+    padding-left: 19%;
+}
+
+#conecte-se #redes a {
+    margin: 0; 
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.space1 {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+}
+
+#fundo {
+    background-color: #55AF7D;
+    margin-bottom: 500px;
+    height: 200px;
+    width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+#fundo img{
+    width: 100%;
+}
