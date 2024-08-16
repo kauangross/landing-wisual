@@ -177,8 +177,11 @@ img#logowisual {
     height: 10px;
 }
 
+#marcas {
+    height: 700px;
+}
+
 #fundo {
-    background-color: #55AF7D;
     height: 200px;
     width: 100%;
     animation: appear linear;
@@ -188,4 +191,8 @@ img#logowisual {
 
 #fundo img{
     width: 100%;
+}
+
+#horarios {
+    align-items: space-around;
 }
