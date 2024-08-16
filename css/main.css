@@ -131,10 +131,10 @@ img#logowisual {
     height: 400px;
 }
 
-
 .subtitle2 {
     text-align: center;
     padding-top: 30px;
+    font-family: Alta;
     font-size: 30px;
     font-weight: 600;
     font-style: oblique;
@@ -178,15 +178,15 @@ img#logowisual {
 }
 
 #marcas {
-    height: 700px;
+    height: 580px;
 }
 
 #fundo {
-    height: 200px;
+    height: 100px;
     width: 100%;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 40%;
 }
 
 #fundo img{
@@ -194,5 +194,21 @@ img#logowisual {
 }
 
 #horarios {
-    align-items: space-around;
+    background-image: url("../img/fundo-horarios.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 430px;
+}
+
+#box-horarios {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
+#horario1, #horario2, #horario3 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
