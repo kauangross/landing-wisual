@@ -134,7 +134,7 @@ img#logowisual {
 .subtitle2 {
     text-align: center;
     padding-top: 30px;
-    font-family: Alta;
+    font-family: Alta; /* DM SANS */
     font-size: 30px;
     font-weight: 600;
     font-style: oblique;
@@ -145,7 +145,6 @@ img#logowisual {
 
 #conecte-se #redes {
     background-color: #A6A28F;
-    padding-left: 40%;
     padding-top: 20px;
     padding-bottom: 20px;
     animation: appear linear;
@@ -154,15 +153,23 @@ img#logowisual {
 }
 
 #logos {
-    padding-bottom: 5px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
 }
 
 #logo-insta {
-    padding-left: 2%;
+
 }
 
 #logo-whatsapp {
-    padding-left: 19%;
+
+}
+
+#redessociais {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
 }
 
 #conecte-se #redes a {
@@ -172,6 +179,12 @@ img#logowisual {
 }
 
 .space1 {
+    display: inline-block;
+    width: 170px;
+    height: 10px;
+}
+
+.space2 {
     display: inline-block;
     width: 130px;
     height: 10px;
@@ -207,8 +220,36 @@ img#logowisual {
     margin-top: 7%;
 }
 
+#box-horarios h3 {
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
 #horario1, #horario2, #horario3 {
+    font-family: Alta;
+    font-weight: bolder;
+    font-style: oblique;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+}
+
+#horario1 > p, #horario2 > p, #horario3 > p {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#horarios > #horario-nota {
+    text-align: center;
+    margin-top: 5%;
+    font-family: Alta;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+    font-style: oblique;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
