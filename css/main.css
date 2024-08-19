@@ -11,6 +11,8 @@
     font-weight: 400;
 }
 
+
+/* Aparencia inicial do site */
 #face {
     height: 82vh;
     background-image: url("../img/img-fundo-1600.png");
@@ -19,6 +21,7 @@
     background-attachment: scroll;
 }
 
+/* Logo marca em texto */
 #brand {
     text-align: center;
     padding-top: 7%;
@@ -31,7 +34,7 @@
     font-weight: 400;   
     text-shadow: 4px 1px 0px rgba(255, 255, 255, 0.144);
 }
-
+/* Texto abaixo da marca */
 #brand p {
     padding-top: 8px;
     color: #414631;
@@ -42,6 +45,8 @@
     letter-spacing: 4px;
 }
 
+
+/* Section de apresentação da loja */
 #conheça {
     margin-top: 7.5%;
     margin-bottom: 10%;
@@ -252,4 +257,27 @@ img#logowisual {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 20%;
+}
+
+
+/* Media Queries */
+@media (max-width: 690px){  
+    #face { /* Centralização da imagem de fundo em tela menor */
+        background-position: center;
+    }
+
+    #brand h1  { /* Tamanho da logo marca texto em telas menores */ 
+        margin-top: 20px;
+        font-size: 80px;
+    }
+    #brand p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 620px){ /* Tamanho da logo marca texto em telas menores */ 
+    #brand h1  { 
+        margin-top: 30px;
+        font-size: 70px;
+    }
 }

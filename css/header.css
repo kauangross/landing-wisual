@@ -59,11 +59,3 @@ div#linha {
         margin-right: 20%;
     }
 }
-
-
-/* linha decorativa do header */
-@media (max-width: ) {
-    div#linha {
-        
-    }
-}
