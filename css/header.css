@@ -6,21 +6,23 @@ header{
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
     position: sticky;
+    text-align: right; /* Coloca os links na direita, a img não pois está livre */
     /*top: 0;*/ /* HEDER FIXO NO TOPO */ 
 }
 
+/* Logo marca wisual, topo esquerdo */
 header img {
     position: absolute;
-    max-width: 4%;
+    max-width: 60px;
     top: 12%;
     left: 6%;
 }
 
+/* Links do cabeçalho */
 div#headerlink {
     display: inline-flex;
-    margin-top: 2.5%;
-    margin-left: 78%;
-    /*margin-left: 70%;*/     
+    margin-top: 40px;
+    margin-right: 11%;
 }
 
 a {
@@ -31,11 +33,37 @@ a {
     font-size: large;
 }
 
+/* Linha decorativa */
 div#linha {
-    margin-top: 1.5%;
-    margin-left: 5%;
+    display: inline-flex;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    left: 5%;
     width: 90%;
     height: 1.5px;
     background-color: white;
 }
 
+
+/* Media queries */
+/* header links */
+@media (max-width: 1190px) {
+    div#headerlink {
+        margin-right: 14%;
+    }
+}
+
+@media (max-width: 830px) {
+    div#headerlink {
+        margin-right: 20%;
+    }
+}
+
+
+/* linha decorativa do header */
+@media (max-width: ) {
+    div#linha {
+        
+    }
+}
